@@ -1,29 +1,40 @@
 {
   "public": {
     "default": {
-      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/CUtu8iPwpbnGEMMSqfijp7/graphql",
-      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/CUtu8iPwpbnGEMMSqfijp7/graphql",
+      "commerce-core-endpoint": "https://www.aemshop.net/graphql",
+      "commerce-endpoint": "https://www.aemshop.net/cs-graphql",
+      "commerce-assets-enabled": false,
       "headers": {
+        "all": {
+          "Store": "default"
+        },
         "cs": {
-          "AC-Environment-Id": "CUtu8iPwpbnGEMMSqfijp7",
-          "AC-View-ID": "515eb6c7-ed1f-4438-809d-5b6056e846f7",
-          "AC-Source-Locale": "en-US"
+          "Magento-Store-Code": "main_website_store",
+          "Magento-Store-View-Code": "default",
+          "Magento-Website-Code": "base",
+          "x-api-key": "4dfa19c9fe6f4cccade55cc5b3da94f7",
+          "Magento-Environment-Id": "f38a0de0-764b-41fa-bd2c-5bc2f3c7b39a"
         }
       },
       "analytics": {
         "base-currency-code": "USD",
         "environment": "Testing",
-        "environment-id": "CUtu8iPwpbnGEMMSqfijp7",
-        "locale": "en-US",
-        "store-url": "https://main--aem-commerce-eds-da--srid88.aem.live/",
-        "store-view-currency-code": "USD",
-        "storefront-template": "Other",
-        "view-id": "515eb6c7-ed1f-4438-809d-5b6056e846f7"
+        "environment-id": "f38a0de0-764b-41fa-bd2c-5bc2f3c7b39a",
+        "store-code": "main_website_store",
+        "store-id": 1,
+        "store-name": "Main Website Store",
+        "store-url": "https://www.aemshop.net",
+        "store-view-code": "default",
+        "store-view-id": 1,
+        "store-view-name": "Default Store View",
+        "website-code": "base",
+        "website-id": 1,
+        "website-name": "Main Website"
       },
       "plugins": {
         "picker": {
-          "rootCategory": "2"
-        }
+           "rootCategory": "YOUR_ROOT_CATEGORY_ID"
+         }
       }
     }
   }
