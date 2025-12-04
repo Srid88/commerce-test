@@ -1,6 +1,6 @@
 mountpoints:
   /:
-    url: "https://author-p122506-e1205203.adobeaemcloud.com/bin/franklin.delivery/Srid88/commerce-test/main"
+    url: "https://author-p130360-e1272151.adobeaemcloud.com/bin/franklin.delivery/adobe-rnd/aem-boilerplate-xcom/main"
     type: "markup"
     suffix: ".html"
   
