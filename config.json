@@ -19,7 +19,7 @@
         "store-url": "https://main--commerce-test--srid88.aem.live/",
         "store-view-currency-code": "USD",
         "storefront-template": "Other",
-        "view-id": "fa08da03-b184-4eb5-9cda-d7304a466310",
+        "view-id": "fa08da03-b184-4eb5-9cda-d7304a466310"
       },
       "plugins": {
         "picker": {
