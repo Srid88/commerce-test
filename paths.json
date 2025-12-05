@@ -1,5 +1,12 @@
 {
   "mappings": [
-    "/content/commerce-test/:/"  
-  ] 
+    "/content/commerce-test/:/",
+    "/content/commerce-test/configuration:/.helix/config.json",
+    "/content/commerce-test/headers:/.helix/headers.json",
+    "/content/commerce-test/metadata:/metadata.json",
+    "/content/commerce-test.resource/enrichment/enrichment.json:/enrichment/enrichment.json"
+  ],
+  "includes": [
+    "/content/commerce-test/"
+  ]
 }
